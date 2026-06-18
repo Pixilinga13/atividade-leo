@@ -11,7 +11,7 @@ if ($user === 'admin' && $pass === 'admin123') {
 
     header('Location: dashboardadm.php');
     exit();
-    include 'index.html';
+    include 'index.php';
 
 } elseif ($user === 'mod' && $pass === 'mod123') {
 
@@ -20,7 +20,7 @@ if ($user === 'admin' && $pass === 'admin123') {
 
     header('Location: dashboardmod.php');
     exit();
-    include 'index.html';
+    include 'index.php';
 
 } elseif ($user === 'user' && $pass === 'user123') {
 
@@ -29,7 +29,7 @@ if ($user === 'admin' && $pass === 'admin123') {
 
     header('Location: dashboarduser.php');
     exit();
-    include 'index.html';
+    include 'index.php';
 } 
 else {
 
