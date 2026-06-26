@@ -11,8 +11,11 @@ include 'index.php';
     top: 130px; /* altura aproximada do header */
     width: 200px;
     height: calc(100vh - 80px);
-    background-color:darkviolet;
+    background-color:violet;
     padding: 10px;
+}
+.container{
+    background-color: violet;
 }
 </style>
 

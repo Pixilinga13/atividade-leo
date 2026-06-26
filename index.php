@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-             .container {
+    .container {
     display: flex;
     align-items: center;
     padding: 15px;
@@ -33,18 +33,16 @@
         if (isset($tituloHeader)) {
             echo $tituloHeader;
         } else {
-            echo "Header";
+            echo "HEADER BÁSICO";
         }
         ?>
-    </h1>   
+        </h1>   
 
     <?php if (!isset($ocultarLogin)) { ?>
         <form action="logins.php" method="post" class="form">
-            User:
-            <input type="text" id="username" name="username" required>
+            User:<input type="text" id="username" name="username" required>
 
-            Password:
-            <input type="password" id="password" name="password" required>
+            Password:<input type="password" id="password" name="password" required>
 
             <button type="submit">Login</button>
         </form>

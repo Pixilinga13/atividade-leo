@@ -14,6 +14,9 @@ include 'index.php';
     background-color:aqua;
     padding: 10px;
 }
+.container{
+    background-color: aqua;
+}
 </style>
 
 <div class="menu">
